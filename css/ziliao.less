@@ -1,0 +1,87 @@
+@import url(m_style.css);
+//封装宽、高、背景
+.pub(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+//封装整体为100%，内容移除隐藏
+.all{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+//封装一个新弹性盒
+.box(@dir:horizontal){
+    display: -webkit-box; //将父元素设置为弹性盒模式
+    -webkit-box-orient: @dir;//给子元素分配排列方式
+}
+html,body,.container{
+    .all;
+}
+//给元素排列方式
+.container{
+    .box(vertical);
+    background: #f3f3f3;
+}
+//导航栏
+.header{
+    .pub(100%,0.89rem,none);
+    background: url(../img/msg_head.png);
+    background-size:100% auto ;
+    .box;
+    -webkit-box-align: center;
+//  -webkit-box-pack: center
+    p{
+        font-size: 0.38rem;
+        color: #fff;
+        a{
+            margin-left: 0.4rem;
+            margin-right: 2.64rem;
+            img{
+                .pub(0.36rem,auto,none);
+            }
+        }
+    }
+}
+.section{
+    .pub(100%,100%rem,none);
+    -webkit-box-flex: 1;
+  .p1{
+      .pub(100%,1.20rem,none);
+      font-size: 0.26rem;
+      color: #303030;
+      .box;
+      -webkit-box-align: center;
+      border-bottom: 1px solid #e2e2e2;
+      a{
+          display:block;
+          -webkit-box-flex: 1;
+          margin-left: 0.4rem;
+      }
+      img{
+          display: block;
+          width: 0.96rem;
+          height: 0.96rem;
+          margin-right: 0.4rem;
+      }
+  }
+  .p2{
+        .pub(100%,1.20rem,none);
+      font-size: 0.26rem;
+      color: #303030;
+      .box;
+      -webkit-box-align: center;
+      border-bottom: 1px solid #e2e2e2;
+      a{
+          display:block;
+          -webkit-box-flex: 1;
+          margin-left: 0.4rem;
+      }
+      span{
+             display: block;
+         color: #aaaaaa;
+          margin-right: 0.4rem;
+      }
+  }
+}

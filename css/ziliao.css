@@ -1,0 +1,90 @@
+@import url(m_style.css);
+.all {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  background: #f3f3f3;
+}
+.header {
+  width: 100%;
+  height: 0.89rem;
+  background: none;
+  background: url(../img/msg_head.png);
+  background-size: 100% auto ;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.header p {
+  font-size: 0.38rem;
+  color: #fff;
+}
+.header p a {
+  margin-left: 0.4rem;
+  margin-right: 2.64rem;
+}
+.header p a img {
+  width: 0.36rem;
+  height: auto;
+  background: none;
+}
+.section {
+  width: 100%;
+  height: 100% rem;
+  background: none;
+  -webkit-box-flex: 1;
+}
+.section .p1 {
+  width: 100%;
+  height: 1.2rem;
+  background: none;
+  font-size: 0.26rem;
+  color: #303030;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  border-bottom: 1px solid #e2e2e2;
+}
+.section .p1 a {
+  display: block;
+  -webkit-box-flex: 1;
+  margin-left: 0.4rem;
+}
+.section .p1 img {
+  display: block;
+  width: 0.96rem;
+  height: 0.96rem;
+  margin-right: 0.4rem;
+}
+.section .p2 {
+  width: 100%;
+  height: 1.2rem;
+  background: none;
+  font-size: 0.26rem;
+  color: #303030;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  border-bottom: 1px solid #e2e2e2;
+}
+.section .p2 a {
+  display: block;
+  -webkit-box-flex: 1;
+  margin-left: 0.4rem;
+}
+.section .p2 span {
+  display: block;
+  color: #aaaaaa;
+  margin-right: 0.4rem;
+}
