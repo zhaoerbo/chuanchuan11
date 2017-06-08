@@ -1,0 +1,149 @@
+@import url(m_style.css);
+.all {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  background: #f3f3f3;
+}
+.header {
+  width: 100%;
+  height: 0.89rem;
+  background: none;
+  background: url(../img/msg_head.png);
+  background-size: 100% auto ;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.header p {
+  font-size: 0.38rem;
+  color: #fff;
+}
+.header p a {
+  margin-left: 0.4rem;
+  margin-right: 2.64rem;
+}
+.header p a img {
+  width: 0.36rem;
+  height: auto;
+  background: none;
+}
+.mian {
+  width: 100%;
+  height: 6.18rem;
+  background: none;
+}
+.mian .mian1 {
+  width: 100%;
+  height: 3.5rem;
+  background: #ffffff;
+  margin-top: 0.12rem;
+}
+.mian .mian1 p {
+  width: 100%;
+  height: 0.86rem;
+  background: none;
+  border-top: 1px solid #f3f3f3;
+  font-size: 0.3rem;
+  color: #6e6e6e;
+  line-height: 0.86rem;
+}
+.mian .mian1 p a {
+  width: 6.7rem;
+  height: 0.86rem;
+  background: none;
+  margin-left: 0.4rem;
+}
+.mian .mian1 p a img {
+  margin-left: 5.3rem;
+  width: 0.12rem;
+}
+.mian .mian1 p a span {
+  margin-left: 4.6rem;
+}
+.mian .mian1 .p1 {
+  border: none;
+}
+.mian .mian1 .p1 img {
+  margin-left: 5.22rem;
+}
+.footer {
+  width: 100%;
+  height: 0.89rem;
+  background: none;
+}
+.footer .f1 {
+  background: url(../img/yuan1.png) no-repeat;
+  background-size: 6.68rem,0.89rem;
+  margin-left: 0.4rem;
+  text-align: center;
+  line-height: 0.89rem;
+}
+.footer .f1 a {
+  color: #ffffff;
+  font-size: 0.34rem;
+}
+.zz {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+}
+.zz .zzz {
+  width: 4.5rem;
+  height: 2.4rem;
+  background: #ffffff;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.25rem;
+  top: 50%;
+  margin-top: -1.2rem;
+  border-radius: 0.1rem;
+}
+.zz .zzz p {
+  text-align: center;
+  font-size: 0.3rem;
+  margin-top: 0.4rem;
+}
+.zz .zzzz {
+  width: 4.5rem;
+  height: 2.4rem;
+  background: #ffffff;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.25rem;
+  top: 50%;
+  margin-top: -1.2rem;
+  border-radius: 0.1rem;
+}
+.zz .zzzz p {
+  text-align: center;
+  font-size: 0.25rem;
+  margin-top: 0.3rem;
+}
+.zz .zzzz p input {
+  display: block;
+  height: 0.33rem ;
+  width: 4rem;
+  border: none;
+  border-bottom: 0.02rem solid #fcc479;
+  font-size: 0.24rem;
+  outline: none;
+  margin-left: 0.25rem;
+}
